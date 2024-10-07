@@ -1,4 +1,5 @@
 <template>
+  <LandingPlatform/>
   <AboutMeSection/>
   <whatIdo/>
   <latestWork/>
@@ -11,6 +12,7 @@ import ExperienceSection from '../components/sections/ExperienceSection.vue';
 import whatIdo from '../components/sections/whatIdo.vue';
 import AboutMeSection from '../components/sections/AboutMeSection.vue';
 import latestWork from '../components/sections/latestWork.vue'
+import LandingPlatform from '../components/sections/LandingPlatform.vue';
 
 
 export default {
@@ -19,7 +21,8 @@ export default {
     whatIdo,
     AboutMeSection,
     ExperienceSection,
-    latestWork
+    latestWork,
+    LandingPlatform
   }
 }
 </script>
