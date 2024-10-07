@@ -1,6 +1,7 @@
 <template>
   <AboutMeSection/>
   <whatIdo/>
+  <latestWork/>
   <ExperienceSection/>
 </template>
 
@@ -9,6 +10,7 @@
 import ExperienceSection from '../components/sections/ExperienceSection.vue';
 import whatIdo from '../components/sections/whatIdo.vue';
 import AboutMeSection from '../components/sections/AboutMeSection.vue';
+import latestWork from '../components/sections/latestWork.vue'
 
 
 export default {
@@ -16,7 +18,8 @@ export default {
   components: {
     whatIdo,
     AboutMeSection,
-    ExperienceSection
+    ExperienceSection,
+    latestWork
   }
 }
 </script>

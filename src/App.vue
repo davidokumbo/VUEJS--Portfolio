@@ -1,10 +1,30 @@
+<!-- <template>
+  <div class="min-h-screen bg-gray-900 text-white">
+    <Navbar />
+    <div class="pt-16">
+      <router-view/>
+    </div>
+  </div>
+</template> -->
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="min-h-screen bg-gray-900 text-white">
+    <navbar />
+    <div class="pt-32">
+      <router-view></router-view>
+    </div>
+  </div>
 </template>
+
+<script>
+import navbar from './components/navbar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    navbar
+  }
+}
+</script>
 
 <style>
 #app {

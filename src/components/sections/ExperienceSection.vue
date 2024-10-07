@@ -6,10 +6,17 @@
         My Resume
         <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-orange-500"></div>
       </h1>
-      
+      <a href="https://docs.google.com/document/d/1f3Sd1ETlEa6T2D0vj2uC6mp0B8lTL7Bm00Sa30dh8yU" target="_blank">
       <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded mb-8 block mx-auto">
         Download CV
       </button>
+    </a >
+      <!-- <a href="https://docs.google.com/document/d/1f3Sd1ETlEa6T2D0vj2uC6mp0B8lTL7Bm00Sa30dh8yU" target="_blank">
+  <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Download Document
+  </button>
+</a> -->
+
   
       <div class="flex flex-col md:flex-row gap-8">
         <div class="w-full md:w-1/2">

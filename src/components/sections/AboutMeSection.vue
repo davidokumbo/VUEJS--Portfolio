@@ -1,17 +1,17 @@
 <template>
   <div class="bg-gray-900 w-full">
-    <div class="text-white p-8 max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="col-span-1">
+    <div class="text-white p-8 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+        <div class="col-span-1 lg:col-span-2">
           <img 
             src="/images/profile.png" 
             alt="Briva Hamisi" 
             class="w-full rounded-lg shadow-lg mb-6 transition-all duration-300 ease-in-out" 
-            :class="{ 'md:h-[500px] md:object-cover': showAllSkills }"
+            :class="{ 'lg:h-[700px] lg:object-cover': showAllSkills }"
           />
         </div>
-        <div class="col-span-1 md:col-span-2 text-left">
-          <h1 class="text-3xl font-bold mb-4">About Briva Hamisi</h1>
+        <div class="col-span-1 lg:col-span-3 text-left">
+          <h1 class="text-4xl font-bold mb-4">About Briva Hamisi</h1>
           <h2 class="text-2xl font-semibold mb-4">Software Engineer | Full Stack Developer | Creative Designer</h2>
           <p class="text-sm text-gray-400 mb-4">
             A versatile professional with 5 years of experience across IT, media, and the entertainment industry. Adept at delivering high-quality solutions in mobile app and web development, video editing, and graphic design. 
