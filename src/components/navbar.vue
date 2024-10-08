@@ -4,7 +4,7 @@
         <div class="flex items-center justify-between h-16">
           <!-- Logo -->
           <div class="flex-shrink-0">
-            <img class="h-8 w-auto" src="/path/to/your/logo.svg" alt="Your Logo">
+            <img class="h-8 w-auto" src="/images/BH_Monogram.png" alt="Briva Hamisi">
           </div>
           
           <!-- Desktop Menu -->

@@ -40,7 +40,7 @@
           </button>
         </div>
         <div class="hidden lg:block w-1/2">
-          <img src="/images/profile.png" alt="Edward Muss" class="w-full h-auto object-contain" />
+          <img src="/images/Banner_Image.png" alt="Edward Muss" class="w-full h-auto object-contain" />
         </div>
       </div>
     </div>

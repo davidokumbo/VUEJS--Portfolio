@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div class="bg-gray-900 w-full py-12">
       <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-12">
@@ -18,46 +19,106 @@
         </div>
       </div>
     </div>
-  </template>
+
+    <!-- Modal component -->
+    <teleport to="body">
+      <div v-if="showModal" class="fixed inset-0 bg-gray-900 text-white z-50 overflow-hidden">
+        <div class="flex h-full mx-8 my-16">
+          <!-- Left side - Image -->
+          <div class="w-1/2 relative">
+            <img 
+              :src="selectedProject.image" 
+              :alt="selectedProject.title" 
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-gray-900 to-transparent">
+              <h2 class="text-4xl font-bold mb-2">{{ selectedProject.title }}</h2>
+              <p class="text-lg">{{ selectedProject.description }}</p>
+            </div>
+          </div>
+
+          <!-- Right side - Content -->
+          <div class="w-1/2 p-8 overflow-y-auto bg-gray-800 rounded-lg">
+            <h2 class="text-3xl font-bold mb-4">{{ selectedProject.title }}</h2>
+            <p class="text-gray-300 mb-6">{{ selectedProject.fullDescription }}</p>
+            <div class="space-y-4 mb-6">
+              <div class="flex items-center">
+                <span class="font-semibold w-20">Client:</span>
+                <span class="text-blue-400">{{ selectedProject.client }}</span>
+              </div>
+              <div class="flex items-center">
+                <span class="font-semibold w-20">Type:</span>
+                <span class="text-blue-400">{{ selectedProject.type }}</span>
+              </div>
+              <div class="flex items-center">
+                <span class="font-semibold w-20">Year:</span>
+                <span>{{ selectedProject.year }}</span>
+              </div>
+              <div class="flex items-center">
+                <span class="font-semibold w-20">Preview:</span>
+                <a :href="selectedProject.previewUrl" class="text-orange-500 hover:underline">
+                  More Work
+                </a>
+              </div>
+            </div>
+            <blockquote class="border-l-4 border-gray-700 pl-4 italic text-gray-300">
+              "{{ selectedProject.quote }}"
+              <footer class="text-gray-400 mt-2">— {{ selectedProject.quoteAuthor }}</footer>
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Close button -->
+        <button 
+          @click="closeModal"
+          class="absolute top-4 right-4 bg-gray-800 rounded-full p-2 hover:bg-gray-700 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </teleport>
+  </div>
+</template>
+
+<script setup>
+import { ref, watch } from 'vue'
+
+const projects = ref([
+  {
+    title: 'Tea Party',
+    description: 'A virtual tea party in preparation for a wedding',
+    image: '/images/bg_main.jpg',
+    fullDescription: 'A tea party is a social gathering event held in the afternoon. For centuries, many societies have cherished drinking tea with company...',
+    client: 'Parsmiti',
+    type: 'Graphic',
+    year: '2021',
+    previewUrl: 'https://example.com/more-work',
+    quote: 'Before you marry a person, you should first make them use a computer with slow internet to see who they really are.',
+    quoteAuthor: 'Will Ferrell'
+  },
   
-  <script setup>
-  import { ref } from 'vue'
-  
-  const projects = ref([
-    {
-      title: 'Community Event',
-      description: 'Organized and spoke at a local community gathering',
-      image: '/path/to/community-event-image.jpg'
-    },
-    {
-      title: 'CTC Africa',
-      description: 'Branding project for a community transformation initiative',
-      image: '/path/to/ctc-africa-logo.jpg'
-    },
-    {
-      title: 'Product Catalog App',
-      description: 'Developed a mobile app for browsing industrial products',
-      image: '/path/to/product-catalog-app.jpg'
-    },
-    {
-      title: 'Virtual Tea Party Invitation',
-      description: 'Designed an invitation for an online pre-wedding event',
-      image: '/path/to/virtual-tea-party-image.jpg'
-    },
-    {
-      title: 'Mobile App UI',
-      description: 'Created user interface for a media streaming application',
-      image: '/path/to/mobile-app-ui.jpg'
-    },
-    {
-      title: 'Data Visualization Dashboard',
-      description: 'Developed an interactive dashboard for data analysis',
-      image: '/path/to/data-visualization-dashboard.jpg'
-    }
-  ])
-  
-  const openProject = (project) => {
-    // Handle project click, e.g. navigate to project details page
-    console.log('Opening project:', project.title)
+  // Other projects...
+])
+
+const showModal = ref(false)
+const selectedProject = ref(null)
+
+const openProject = (project) => {
+  selectedProject.value = project
+  showModal.value = true
+}
+
+const closeModal = () => {
+  showModal.value = false
+}
+
+watch(showModal, (val) => {
+  if (val) {
+    document.body.classList.add('overflow-hidden')
+  } else {
+    document.body.classList.remove('overflow-hidden')
   }
-  </script>
+})
+</script>
