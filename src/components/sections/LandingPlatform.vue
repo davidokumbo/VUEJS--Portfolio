@@ -6,13 +6,13 @@
       </div>
   
       <!-- tsParticles container (with custom styles) -->
-      <div id="tsparticles-container">
+      <!-- <div id="tsparticles-container">
         <ParticlesComponent
           id="tsparticles"
           :options="particlesOptions"
           class="particles-custom"
         />
-      </div>
+      </div> -->
   
       <!-- Gradient overlay (above tsParticles) -->
       <div class="absolute inset-0 z-20 bg-gradient-to-b from-transparent via-gray-900/70 to-gray-900"></div>
