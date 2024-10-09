@@ -9,9 +9,8 @@
     <whatIdo/>
     <ExperienceStats/>
   </div>
-  <div id="latestWork">
-    <latestWork/>
-  </div>
+    <latestWork id="latestWork"/>
+
   <ExperienceSection id="experience"/>
   <div id="contact">
     <ContactUs/>
