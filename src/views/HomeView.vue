@@ -6,6 +6,7 @@
   <latestWork/>
   <ExperienceSection/>
   <ContactUs/>
+  <Footer/>
 </template>
 
 <script>
@@ -17,6 +18,7 @@ import latestWork from '../components/sections/latestWork.vue'
 import LandingPlatform from '../components/sections/LandingPlatform.vue';
 import ContactUs from '../components/sections/ContactUs.vue'
 import ExperienceStats from '@/components/sections/ExperienceStats.vue';
+import Footer from '../components/Footer.vue';
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
     latestWork,
     LandingPlatform,
     ContactUs,
-    ExperienceStats
+    ExperienceStats,
+    Footer
   }
 }
 </script>
