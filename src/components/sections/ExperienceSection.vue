@@ -52,7 +52,7 @@
         @click="toggleLoadMore" 
         class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded mt-8 block mx-auto"
       >
-        {{ isShowingAll ? 'Load less' : 'Load more' }}
+        {{ isShowingAll ? 'Show less' : 'Load more' }}
       </button>
     </div>
   </div>
