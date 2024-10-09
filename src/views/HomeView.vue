@@ -1,16 +1,26 @@
 <template>
-  <LandingPlatform/>
-  <AboutMeSection/>
-  <whatIdo/>
-  <ExperienceStats/>
-  <latestWork/>
-  <ExperienceSection/>
-  <ContactUs/>
+  <div id="home">
+    <LandingPlatform/>
+  </div>
+  <div id="about">
+    <AboutMeSection/>
+  </div>
+  <div id="skills">
+    <whatIdo/>
+    <ExperienceStats/>
+  </div>
+  <div id="latestWork">
+    <latestWork/>
+  </div>
+  <ExperienceSection id="experience"/>
+  <div id="contact">
+    <ContactUs/>
+  </div>
   <Footer/>
 </template>
 
 <script>
-// @ is an alias to /src
+// Importing components
 import ExperienceSection from '../components/sections/ExperienceSection.vue';
 import whatIdo from '../components/sections/whatIdo.vue';
 import AboutMeSection from '../components/sections/AboutMeSection.vue';
@@ -19,7 +29,6 @@ import LandingPlatform from '../components/sections/LandingPlatform.vue';
 import ContactUs from '../components/sections/ContactUs.vue'
 import ExperienceStats from '@/components/sections/ExperienceStats.vue';
 import Footer from '../components/Footer.vue';
-
 
 export default {
   name: 'HomeView',

@@ -35,9 +35,13 @@
             complex concepts by showing you how to implement them in project-based courses 
             and tutorials. I love coding, yes I do it for fun sometimes 😊
           </p>
-          <button class="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-orange-600 transition duration-300">
-            My Resume
-          </button>
+          <button 
+  class="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-orange-600 transition duration-300"
+  @click="scrollToSection('experience')"
+>
+  My Resume
+</button>
+
         </div>
         <div class="hidden lg:block w-1/2">
           <img src="/images/Banner_Image.png" alt="Edward Muss" class="w-full h-auto object-contain" />
@@ -47,113 +51,56 @@
   </template>
   
   <script>
-  import { ref, onMounted } from 'vue';
-  import { ParticlesComponent } from "vue3-particles";
-  import { loadFull } from 'tsparticles';
-  import Typewriter from 'typewriter-effect/dist/core';
-  
-  export default {
-    name: 'LandingPage',
-    components: {
-      ParticlesComponent
-    },
-    setup() {
-      const typewriter = ref(null);
-      const particlesOptions = {
-        fullScreen: { enable: false },
-        background: {
-          color: {
-            value: "transparent",
-          },
-        },
-        fpsLimit: 120,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
-          },
-          links: {
-            color: "#ff8c00",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 6,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 5 },
-          },
-        },
-        detectRetina: true,
-      };
-  
-      onMounted(() => {
-        // Load full tsParticles
-        loadFull(tsParticles).then(() => {
-          console.log("tsParticles fully loaded");
+import { ref, onMounted } from 'vue';
+import { ParticlesComponent } from "vue3-particles";
+import { loadFull } from 'tsparticles';
+import Typewriter from 'typewriter-effect/dist/core';
+
+export default {
+  name: 'LandingPage',
+  components: {
+    ParticlesComponent
+  },
+  setup() {
+    const typewriter = ref(null);
+    const particlesOptions = {
+      
+    };
+
+    const scrollToSection = (sectionRef) => {
+      const sectionElement = document.getElementById(sectionRef);
+      const marginTop = 32; // 32px margin
+
+      if (sectionElement) {
+        const sectionPosition = sectionElement.getBoundingClientRect().top + window.pageYOffset - marginTop;
+        window.scrollTo({
+          top: sectionPosition,
+          behavior: 'smooth',
         });
-  
-        new Typewriter(typewriter.value, {
-          strings: ['an Engineer', 'a Developer', 'a Designer', 'a Video Editor', 'a Photographer'],
-          autoStart: true,
-          loop: true,
-        });
+      }
+    };
+
+    onMounted(() => {
+      loadFull(tsParticles).then(() => {
+        console.log("tsParticles fully loaded");
       });
-  
-      return {
-        typewriter,
-        particlesOptions
-      };
-    }
-  }
-  </script>
-  
+
+      new Typewriter(typewriter.value, {
+        strings: ['an Engineer', 'a Developer', 'a Designer', 'a Video Editor', 'a Photographer'],
+        autoStart: true,
+        loop: true,
+      });
+    });
+
+    return {
+      typewriter,
+      particlesOptions,
+      scrollToSection,
+    };
+  },
+};
+</script>
+
   <style>
   .parallax {
     background-attachment: fixed;
