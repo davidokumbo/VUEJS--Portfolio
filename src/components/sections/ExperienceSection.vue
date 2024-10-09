@@ -11,11 +11,6 @@
         Download CV
       </button>
     </a >
-      <!-- <a href="https://docs.google.com/document/d/1f3Sd1ETlEa6T2D0vj2uC6mp0B8lTL7Bm00Sa30dh8yU" target="_blank">
-  <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
-    Download Document
-  </button>
-</a> -->
 
   
       <div class="flex flex-col md:flex-row gap-8">
@@ -28,7 +23,7 @@
             </div>
             <div class="relative">
               <div class="absolute -left-10 top-0 h-8 bg-gradient-to-r from-orange-500/20 to-transparent" :style="{ width: 'calc(100% + 2.5rem)' }"></div>
-              <div class="font-semibold text-orange-500 relative z-10">{{ job.period }}</div>
+              <div class="font-semibold text-orange-500 relative z-10" style="text-align: left;">{{ job.period }}</div>
             </div>
             <h3 class="text-xl font-semibold mb-1 text-left mt-2">{{ job.title }}</h3>
             <p class="text-gray-400 mb-1 text-left">{{ job.company }}</p>
@@ -45,7 +40,7 @@
             </div>
             <div class="relative">
               <div class="absolute -left-10 top-0 h-8 bg-gradient-to-r from-orange-500/20 to-transparent" :style="{ width: 'calc(100% + 2.5rem)' }"></div>
-              <div class="font-semibold text-orange-500 relative z-10">{{ edu.period }}</div>
+              <div class="font-semibold text-orange-500 relative z-10" style="text-align: left;">{{ edu.period }}</div>
             </div>
             <h3 class="text-xl font-semibold mb-1 text-left mt-2">{{ edu.degree }}</h3>
             <p class="text-gray-400 mb-1 text-left">{{ edu.institution }}</p>

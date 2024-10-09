@@ -2,8 +2,10 @@
   <LandingPlatform/>
   <AboutMeSection/>
   <whatIdo/>
+  <ExperienceStats/>
   <latestWork/>
   <ExperienceSection/>
+  <ContactUs/>
 </template>
 
 <script>
@@ -13,6 +15,8 @@ import whatIdo from '../components/sections/whatIdo.vue';
 import AboutMeSection from '../components/sections/AboutMeSection.vue';
 import latestWork from '../components/sections/latestWork.vue'
 import LandingPlatform from '../components/sections/LandingPlatform.vue';
+import ContactUs from '../components/sections/ContactUs.vue'
+import ExperienceStats from '@/components/sections/ExperienceStats.vue';
 
 
 export default {
@@ -22,7 +26,9 @@ export default {
     AboutMeSection,
     ExperienceSection,
     latestWork,
-    LandingPlatform
+    LandingPlatform,
+    ContactUs,
+    ExperienceStats
   }
 }
 </script>
