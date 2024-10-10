@@ -21,8 +21,8 @@
           <span ref="typewriter"></span>
         </div>
         <p class="text-base text-gray-300 max-w-2xl mb-8">
-          I am a Mechanical Engineer, a Fullstack Developer, Mobile Apps Developer, 
-          Graphic Designer, Video Editor, Photographer, Saxophonist, Guitarist. I break down 
+          I am a Software Engineer, a Fullstack Developer, Mobile Apps Developer, 
+          Graphic Designer, Video Editor, Photographer. I break down 
           complex concepts by showing you how to implement them in project-based courses 
           and tutorials. I love coding, yes I do it for fun sometimes 😊
         </p>
