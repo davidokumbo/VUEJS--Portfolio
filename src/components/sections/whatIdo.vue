@@ -27,7 +27,7 @@
     {
       icon: ComputerDesktopIcon,
       title: "Graphic Design",
-      description: "I have done Graphic Design for more than 7 years, I create logos, business cards, brochures, magazines, posters, mockups, flyers, etc."
+      description: "I have done Graphic Design for more than 4 years, I create logos, business cards, brochures, magazines, posters, mockups, flyers, etc."
     },
     {
       icon: WrenchScrewdriverIcon,
