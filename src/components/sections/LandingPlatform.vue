@@ -64,7 +64,7 @@ export default {
 
     onMounted(() => {
       new Typewriter(typewriter.value, {
-        strings: ['an Engineer', 'a Developer', 'a Designer', 'a Video Editor', 'a Photographer'],
+        strings: ['a Software Engineer', 'a UI/UX Designer', 'a Creative Graphics Designer', 'a Video Editor', 'a Photographer'],
         autoStart: true,
         loop: true,
       });
