@@ -65,66 +65,55 @@ const experiences = ref([
   {
     period: "2019 - Now",
     title: "Founder and CEO",
-    company: "Cloud Rebus Solutions",
-    description: "A digital agency focused on Web, Bulk SMS, Graphic Design, Web and App Development, Promotional and Gift Items, Branding and Printing. Successfully deploy RESTFUL and efficient back-end WebAPI solutions for a Bulk SMS system."
+    company: "Briva Digital",
+    description: "A digital agency focused on Web, Creative Graphic Design, Android App Development, Branding and UI/UX Design. Succesfully Supports and Designs various creatives and Supports wide range of Customers"
   },
   {
-    period: "2021 - 2024",
-    title: "Software Engineer",
-    company: "CTC Africa",
-    description: "Volunteered as a Web Developer at Community Transformation Centre Africa. Came up with the CTC cofoam and brand Manual. Designed CTC Africa new Developed CTC Africa Website, Integrated Payment Gateways for seamless donations."
+    period: "2024 - Now",
+    title: "Backend Software Engineer",
+    company: "Stanbest Group (EA) Limited",
+    description: "Integrating POS (Point of Sale) systems with eTIMS(Electronic Tax Invoice Management Systems) Creating RESTFUL APIs"
   },
   {
-    period: "2022 - 2023",
-    title: "Webmaster",
-    company: "Daystar University",
-    description: "Successfully ensured Daystar websites are up to date, running and user interactive, transformed the webpages from static HTML to dynamic pages. Used GitHub as version control to track and manage all web applications."
+    period: "2022 - 2024",
+    title: "STEM IT",
+    company: "FOCUS Kenya",
+    description: "Involved in student ministry, offered mentorship and advisory support to students and Christian Union leaders. Facilitated training to students in different Universities/Colleges. Involved in FOCUS Kenya Android Students App Development, FOCUS Kenya Bookstall App Development, FOCUS Student Management System, and FOCUS Tatua Enterprise System. Involved in Creative Graphics Design for FOCUS Productions"
   },
   {
-    period: "2018 - 2019",
-    title: "Junior Web Developer",
-    company: "Tech Startup X",
-    description: "Assisted in the development of responsive web applications using modern JavaScript frameworks. Collaborated with the design team to implement user-friendly interfaces."
+    period: "2022 - 2022",
+    title: "IT Support and Graphics Designer",
+    company: "ArielTech & Essert Kenya ",
+    description: "Assisted in the development of responsive web applications using CMS (Content Management Systems) to implement user-friendly interfaces. Designed Creatives for print such as banners, Business cards and Company profiles "
   },
-  {
-    period: "2017 - 2018",
-    title: "IT Intern",
-    company: "Global Corp Y",
-    description: "Provided technical support to employees, assisted in network maintenance, and contributed to small-scale web projects for internal use."
-  }
 ])
 
 const education = ref([
   {
     period: "2024 - Now",
-    degree: "Diploma in Cyber Security and Ethical Hacking",
-    institution: "Institute of Software Technologies (IST)",
-    description: "Institute of Software Technologies is a fully-fledged Kenyan institution registered with the Ministry of Higher Education, Science, and Technology (MOHEST), to provide Technical, Vocational, and Entrepreneurship Training (TVET) Institution No. MOH/IST/PRIV/TVC/011."
+    degree: "certificate in Software Development - Scholarship",
+    institution: "Power Learn project",
+    description: "This course is meant to train young people from Africa, starting at a point of little experience to fairly skilled software developers ready to get into the market place and jump on the next phase of their learning at an advanced levels."
   },
   {
     period: "2022 - 2022",
-    degree: "ALX-T Cloud Developer",
-    institution: "ALX-T Cloud Developer Nanodegree Program",
-    description: "The ALX Cloud Developer Programme, in partnership with Udacity, offers the fundamentals of cloud development and deployment with Amazon Web Services (AWS). This programme offers fully-funded scholarships dedicated to training African youth."
+    degree: "Android Development",
+    institution: "Google Africa Developers Programme",
+    description: "It is an initiative by Google aimed at supporting and empowering developers in Africa. It focuses on providing resources, training, and opportunities to developers to help them build high-quality applications, grow their careers, and contribute to the African tech ecosystem."
   },
   {
-    period: "2021 - 2022",
-    degree: "Software Engineering (12 months course)",
-    institution: "Africa Leadership X (ALX) in Collaboration with Holberton School",
-    description: "The ALX Software Engineering Programme full-time requires learners to commit to 70 hours of learning per week to successfully complete the coursework. The Programme prepares learner with the sought after professional skills for today's digital workforce."
-  },
-  {
-    period: "2016 - 2020",
+    period: "2018 - 2022",
     degree: "Bachelor of Science in Computer Science",
-    institution: "University of Technology",
+    institution: "Kenyatta University, Nairobi",
     description: "Comprehensive study of computer science fundamentals, including data structures, algorithms, software engineering principles, and database management systems."
   },
   {
-    period: "2015 - 2016",
-    degree: "Certificate in Web Development",
-    institution: "Online Learning Platform",
-    description: "Self-paced online course covering HTML, CSS, JavaScript, and basic backend technologies. Completed several projects showcasing web development skills."
-  }
+    period: "2018 - 2018",
+    degree: "Certificate of Computer Fundamentals",
+    institution: "P.C.E.A College, Molo",
+    description: "The Certificate of Computer Fundamentals Programme is a full-time course that requires learners to commit to atleast 3 hours of learning per week to successfully complete the coursework. The Programme prepares learner with the sought after professional skills for today's digital workforce."
+  },
+  
 ])
 
 const itemsToShow = ref(3)

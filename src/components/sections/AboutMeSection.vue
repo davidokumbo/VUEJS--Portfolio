@@ -18,7 +18,7 @@
             Proficient in a broad range of technologies and tools, including PHP, JavaScript, Java, C, Python, HTML, CSS, ngnix, Bootstrap, Laravel, kotlin, WordPress, and the Adobe Creative Suite (Photoshop, Illustrator, InDesign, Lightroom, Premiere Pro, After Effects). Experienced in production process managers like PM2.
           </p>
           <p class="text-sm text-gray-400 mb-6">
-            Demonstrates strong leadership, working with minimum supervision and excelling in communication, with a proven ability to make critical decisions under pressure.
+            Demonstrates strong leadership, working with minimum supervision and excelling in communication, with a proven ability to make critical decisions and work under pressure.
           </p>
 
           <!-- Dynamic Skill Bars -->

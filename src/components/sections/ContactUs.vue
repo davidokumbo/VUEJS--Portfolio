@@ -11,7 +11,7 @@
               Let's work together on your next project
             </h2>
             <p class="text-gray-300 max-w-2xl text-left">
-              I break down complex concepts by showing you how to implement them in project-based courses and tutorials. I love coding, yes I do it for fun sometimes 😊
+              Partner with me to bring your next project to life. I'll combine creativity and expertise to turn your vision into reality, delivering results that exceed your expectations! 🚀
             </p>
           </div>
           <a href="https://wa.me/254702111468/?text=Hello%20Hamisi%20Briva" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-orange-600 transition duration-300 whitespace-nowrap flex items-center space-x-2">
