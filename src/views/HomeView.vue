@@ -12,6 +12,7 @@
     <latestWork id="latestWork"/>
 
   <ExperienceSection id="experience"/>
+  <Testimonial/>
   <div id="contact">
     <ContactUs/>
   </div>
@@ -28,6 +29,7 @@ import LandingPlatform from '../components/sections/LandingPlatform.vue';
 import ContactUs from '../components/sections/ContactUs.vue'
 import ExperienceStats from '@/components/sections/ExperienceStats.vue';
 import Footer from '../components/Footer.vue';
+import Testimonial from '@/components/sections/Testimonial.vue';
 
 export default {
   name: 'HomeView',
@@ -39,7 +41,8 @@ export default {
     LandingPlatform,
     ContactUs,
     ExperienceStats,
-    Footer
+    Footer,
+    Testimonial
   }
 }
 </script>
