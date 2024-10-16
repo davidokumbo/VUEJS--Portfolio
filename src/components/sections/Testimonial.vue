@@ -48,19 +48,19 @@
     {
       name: 'Mehwish',
       title: 'Product Designer',
-      avatar: '/api/placeholder/56/56',  // Adjusted for larger image size
+      avatar: '/images/profile_icon_default.png',  // Adjusted for larger image size
       comment: 'Contented get distrusts certainty nay are frankness concealed ham. On unaffected resolution on considered of.'
     },
     {
       name: 'Elizabeth Jeff',
       title: 'CEO of Company',
-      avatar: '/api/placeholder/56/56',
+      avatar: '/images/profile_icon_default.png',
       comment: 'Dear so sing when in find dote our of use As distrusts behaviour abilities defective is.'
     },
     {
       name: 'Emily Thomas',
       title: 'Marketing Manager',
-      avatar: '/api/placeholder/56/56',
+      avatar: '/images/profile_icon_default.png',
       comment: 'Never att water me might. On formed merits hunted unable merely by mr whence or.'
     }
   ])
