@@ -3,8 +3,8 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-start md:space-x-16">  <!-- Increased space between columns -->
           <div class="w-full md:w-1/3 mb-12 md:mb-0">  <!-- Increased bottom margin on mobile -->
-            <h2 class="text-3xl font-bold text-white mb-6 text-left">What Our Customers Says</h2>  <!-- Increased margin bottom -->
-            <p class="text-gray-400 mb-8 text-left">Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always get tedious nature day course for common.</p>  <!-- Increased margin bottom -->
+            <h2 class="text-3xl font-bold text-white mb-6 text-left">Professional Recommendations</h2>  <!-- Increased margin bottom -->
+            <p class="text-gray-400 mb-8 text-left">Throughout my career, I've had the privilege of collaborating with exceptional professionals across various industries. These individuals have not only witnessed my work firsthand but have also experienced the value I bring to projects and teams. Their words reflect my commitment to excellence, innovation, and client satisfaction. I'm honored to share their recommendations, which speak to my expertise, work ethic, and the positive impact I've made in my field.</p>  <!-- Increased margin bottom -->
             <div class="text-left">
               <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded">  <!-- Increased padding -->
                 View More
