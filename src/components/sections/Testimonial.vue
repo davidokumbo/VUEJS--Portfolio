@@ -46,10 +46,10 @@
   
   const testimonials = ref([
     {
-      name: 'Mehwish',
-      title: 'Product Designer',
-      avatar: '/images/profile_icon_default.png',  // Adjusted for larger image size
-      comment: 'Contented get distrusts certainty nay are frankness concealed ham. On unaffected resolution on considered of.'
+      name: 'Moses Ngure',
+      title: 'Flutter Developer at Uzapoint Technologies',
+      avatar: '/images/moses_ngure.jpg',  // Adjusted for larger image size
+      comment: "Briva is a designer with a difference. With a keen eye on detail and purpose, he lets his creations speak for themselves. He pays attention to what the customer needs and delivers an outstanding work of art. On building softwares, he's flexible to deliver both mobile and web applications."
     },
     {
       name: 'Elizabeth Jeff',
