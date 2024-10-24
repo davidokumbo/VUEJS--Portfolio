@@ -179,7 +179,7 @@ const projects = ref([
   {
     title: 'UI/UX Design',
     description: 'A virtual tea party in preparation for a wedding',
-    images: ['/images/bg_main.jpg', '/images/tea_party_2.jpg', '/images/tea_party_3.jpg'],
+    images: ['/images/bg_main.jpg','/images/UI_1.png', '/images/UIDesign.jpg', '/images/UIDesign_2.jpg', '/images/UI_Design3.jpg', '/images/MobileUI.jpg'],
     videoUrl: null,
     fullDescription: 'A tea party is a social gathering event held in the afternoon. For centuries, many societies have cherished drinking tea with company at noon. Tea parties are considered for formal business meetings, social celebrations or just as an afternoon refreshment.',
     client: 'Hamisi Briva',
