@@ -67,8 +67,8 @@
                   </template>
                 </div>
                 <div class="absolute bottom-0 left-0 w-full p-4 md:p-8 bg-gradient-to-t from-gray-900 to-transparent">
-                  <h2 class="text-2xl md:text-4xl font-bold mb-2">{{ selectedProject.title }}</h2>
-                  <p class="text-sm md:text-lg">{{ selectedProject.description }}</p>
+                  <!-- <h2 class="text-gray text-2xl md:text-4xl font-bold mb-2">{{ selectedProject.title }}</h2> -->
+                  <!-- <p class="text-sm md:text-lg">{{ selectedProject.description }}</p> -->
                 </div>
                 <!-- Image navigation buttons -->
                 <div v-if="!selectedProject.videoUrl && selectedProject.images.length > 1"
@@ -88,7 +88,7 @@
 
               <!-- Right side - Content -->
               <div class="w-full lg:w-1/2 p-6 md:p-8 bg-gray-800 overflow-y-auto max-h-[calc(100vh-8rem)]">
-                <h2 class="text-2xl md:text-3xl font-bold mb-4">{{ selectedProject.title }}</h2>
+                <h2 class="text-orange-500 text-2xl md:text-3xl font-bold mb-4">{{ selectedProject.title }}</h2>
                 <p class="text-gray-300 mb-6 text-sm md:text-base">{{ selectedProject.fullDescription }}</p>
                 <div class="space-y-4 mb-6">
                   <div class="flex items-center">
@@ -178,13 +178,13 @@ const projects = ref([
   },
   {
     title: 'UI/UX Design',
-    description: 'A virtual tea party in preparation for a wedding',
+    description: 'Seamlessly blending aesthetics with functionality, our UI/UX design transforms user interactions into intuitive, delightful experiences. From sleek interfaces to effortless navigation, we craft digital journeys that captivate and engage, ensuring every click feels natural and meaningful.',
     images: ['/images/bg_main.jpg','/images/UI_1.png', '/images/UIDesign.jpg', '/images/UIDesign_2.jpg', '/images/UI_Design3.jpg', '/images/MobileUI.jpg'],
     videoUrl: null,
-    fullDescription: 'A tea party is a social gathering event held in the afternoon. For centuries, many societies have cherished drinking tea with company at noon. Tea parties are considered for formal business meetings, social celebrations or just as an afternoon refreshment.',
-    client: 'Hamisi Briva',
-    type: 'Graphic',
-    year: '2021',
+    fullDescription: 'I design with a deep understanding that great user experiences go beyond just looks. My UI/UX design blends creative flair with strategic thinking, creating interfaces that are visually striking and easy to navigate. Every detail, from color harmony and typography to layout and micro-interactions, is thoughtfully crafted to enhance user engagement. With a strong focus on user behavior and accessibility, I aim to build digital experiences that feel intuitive, foster connection, and deliver value. Whether its for mobile or web, my designs ensure that each interaction is purposeful and fluid, making technology feel human',
+    client: 'Stanbest Group (EA) Limited, FOCUS Kenya',
+    type: 'User Interface/User Experience Design',
+    year: '2024. 2023',
     previewUrl: 'https://example.com/more-work',
     quote: 'Before you marry a person, you should first make them use a computer with slow internet to see who they really are.',
     quoteAuthor: 'Will Ferrell'
