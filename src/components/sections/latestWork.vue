@@ -118,7 +118,7 @@
                       </svg>
                     </span>
                     <span class="font-semibold w-20 text-gray-400">Year:</span>
-                    <span class="flex-grow">{{ selectedProject.year }}</span>
+                    <span class="flex-grow text-gray-400">{{ selectedProject.year }}</span>
                   </div>
                   <div class="h-px bg-gray-700 w-full"></div>
                   <div class="flex items-center">
