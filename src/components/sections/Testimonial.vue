@@ -53,8 +53,8 @@
     },
     {
       name: 'Maureen Mamo',
-      title: 'CEO of Company',
-      avatar: '/images/profile_icon_default.png',
+      title: 'Economist',
+      avatar: '/images/Mamo_M.jpg',
       comment: "Briva's designs are a mark of excellence and creativity. I have had the opportunity to interact with his work over the years, and his commitment to grow and become better is admirable.  He is out to meet the needs and preferences of his clients, he is consistent and with a touch of his creativity produces quality designs from posters to fliers and bronchures."
     },
     {
