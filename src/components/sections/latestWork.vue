@@ -165,16 +165,16 @@ const projects = ref([
   },
   {
     title: 'Graphics Design',
-    description: 'A virtual tea party in preparation for a wedding',
-    images: ['/images/background.jpg', '/images/tea_party_2.jpg', '/images/tea_party_3.jpg'],
+    description: 'Your brand’s personality, captured in a single, powerful logo',
+    images: ['/images/mockup_1.jpg', '/images/mockup_2.jpg', '/images/mockup_3.jpg', '/images/mockup_4.jpg', '/images/mockup_5.jpg', '/images/mockup_6.jpg', '/images/mockup_7.jpg'],
     videoUrl: null,
-    fullDescription: 'A tea party is a social gathering event held in the afternoon. For centuries, many societies have cherished drinking tea with company at noon. Tea parties are considered for formal business meetings, social celebrations or just as an afternoon refreshment.',
-    client: 'Hamisi Briva',
+    fullDescription: 'Blending creativity with purpose, our graphic design transforms visuals into compelling stories that resonate. Every color, line, and layout is thoughtfully crafted to capture attention, convey meaning, and inspire action. From branding to digital and print, we create visuals that leave a lasting impression, ensuring your message is as powerful as it is beautiful.',
+    client: 'Stancap Enterprises',
     type: 'Graphic',
     year: '2021',
-    previewUrl: 'https://example.com/more-work',
-    quote: 'Before you marry a person, you should first make them use a computer with slow internet to see who they really are.',
-    quoteAuthor: 'Will Ferrell'
+    previewUrl: 'https://www.behance.net/brivahamisi',
+    quote: 'Great design is more than just aesthetics; it’s a visual story that speaks louder than words and lingers longer than a glance',
+    quoteAuthor: 'AI'
   },
   {
     title: 'UI/UX Design',
@@ -186,8 +186,8 @@ const projects = ref([
     type: 'User Interface/User Experience Design',
     year: '2024. 2023',
     previewUrl: 'https://example.com/more-work',
-    quote: 'Before you marry a person, you should first make them use a computer with slow internet to see who they really are.',
-    quoteAuthor: 'Will Ferrell'
+    quote: "We tend to forget that behind every product, there's a person – a human with dreams, struggles, and emotions. UX design is about connecting the heart of the designer to the heart of the user",
+    quoteAuthor: 'Aarron Walter'
   },
 ])
 
