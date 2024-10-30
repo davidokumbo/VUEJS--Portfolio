@@ -152,16 +152,16 @@ import { ref } from 'vue'
 const projects = ref([
   {
     title: 'Software Development',
-    description: 'A virtual tea party in preparation for a wedding',
-    images: ['/images/bg_main.jpg', '/images/tea_party_2.jpg', '/images/tea_party_3.jpg'],
+    description: 'Your vision transformed into a seamless digital experience that engages and resonates with your audience. Every element reflects your brand’s unique identity, ensuring your message captivates and builds lasting connections with users.',
+    images: ['/images/sw_1.jpg', '/images/sw_2.jpg', '/images/sw_3.jpg'],
     videoUrl: null,
-    fullDescription: 'A tea party is a social gathering event held in the afternoon. For centuries, many societies have cherished drinking tea with company at noon. Tea parties are considered for formal business meetings, social celebrations or just as an afternoon refreshment.',
-    client: 'Hamisi Briva',
-    type: 'Graphic',
-    year: '2021',
-    previewUrl: 'https://example.com/more-work',
-    quote: 'Before you marry a person, you should first make them use a computer with slow internet to see who they really are.',
-    quoteAuthor: 'Will Ferrell'
+    fullDescription: 'This project features a sleek, minimalistic website built with Next.js and styled using Tailwind CSS, emphasizing clean aesthetics and user-friendly navigation. The site includes an integrated AI chatbot that enhances user interaction by providing real-time assistance and personalized responses. By leveraging Next.js for dynamic rendering and Tailwind CSS for a responsive layout, the website not only looks modern and inviting but also delivers a seamless and engaging user experience',
+    client: 'Stanbest Group (EA) Limited',
+    type: 'Sofwatware Development',
+    year: '2024',
+    previewUrl: 'https://github.com/BrivaHamisi',
+    quote: 'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.',
+    quoteAuthor: 'Martin Fowler'
   },
   {
     title: 'Graphics Design',
@@ -171,7 +171,7 @@ const projects = ref([
     fullDescription: 'Blending creativity with purpose, our graphic design transforms visuals into compelling stories that resonate. Every color, line, and layout is thoughtfully crafted to capture attention, convey meaning, and inspire action. From branding to digital and print, we create visuals that leave a lasting impression, ensuring your message is as powerful as it is beautiful.',
     client: 'Stancap Enterprises',
     type: 'Graphic',
-    year: '2021',
+    year: '2024',
     previewUrl: 'https://www.behance.net/brivahamisi',
     quote: 'Great design is more than just aesthetics; it’s a visual story that speaks louder than words and lingers longer than a glance',
     quoteAuthor: 'AI'
@@ -179,13 +179,13 @@ const projects = ref([
   {
     title: 'UI/UX Design',
     description: 'Seamlessly blending aesthetics with functionality, our UI/UX design transforms user interactions into intuitive, delightful experiences. From sleek interfaces to effortless navigation, we craft digital journeys that captivate and engage, ensuring every click feels natural and meaningful.',
-    images: ['/images/bg_main.jpg','/images/UI_1.png', '/images/UIDesign.jpg', '/images/UIDesign_2.jpg', '/images/UI_Design3.jpg', '/images/MobileUI.jpg'],
+    images: ['/images/UI_Mockup4.jpg','/images/UI_Mockup3.jpg', '/images/UI_Mockup2.jpg', '/images/UI_Mockup1.jpg','/images/bg_main.jpg','/images/UI_1.png', '/images/UIDesign.jpg', '/images/UIDesign_2.jpg', '/images/UI_Design3.jpg', '/images/MobileUI.jpg'],
     videoUrl: null,
     fullDescription: 'I design with a deep understanding that great user experiences go beyond just looks. My UI/UX design blends creative flair with strategic thinking, creating interfaces that are visually striking and easy to navigate. Every detail, from color harmony and typography to layout and micro-interactions, is thoughtfully crafted to enhance user engagement. With a strong focus on user behavior and accessibility, I aim to build digital experiences that feel intuitive, foster connection, and deliver value. Whether its for mobile or web, my designs ensure that each interaction is purposeful and fluid, making technology feel human',
     client: 'Stanbest Group (EA) Limited, FOCUS Kenya',
     type: 'User Interface/User Experience Design',
     year: '2024. 2023',
-    previewUrl: 'https://example.com/more-work',
+    previewUrl: 'https://www.figma.com/design/CALoyJqgn3oYv2ryML7BFv/Stanbest?node-id=0-1&t=pMobcroRoDNRfkT5-1',
     quote: "We tend to forget that behind every product, there's a person – a human with dreams, struggles, and emotions. UX design is about connecting the heart of the designer to the heart of the user",
     quoteAuthor: 'Aarron Walter'
   },
