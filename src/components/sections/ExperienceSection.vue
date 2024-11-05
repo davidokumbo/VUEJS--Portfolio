@@ -66,7 +66,7 @@ const experiences = ref([
     period: "2019 - Now",
     title: "Founder and CEO",
     company: "Briva Digital",
-    description: "A digital agency focused on Web, Creative Graphic Design, Android App Development, Branding and UI/UX Design. Succesfully Supports and Designs various creatives and Supports wide range of Customers"
+    description: "A digital agency focused on Web, Creative Graphic Design, Android App Development, Branding and UI/UX Design. Succesfully Designs various creatives and Supports wide range of Customers"
   },
   {
     period: "2024 - Now",
