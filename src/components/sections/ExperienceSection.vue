@@ -91,7 +91,7 @@ const experiences = ref([
 const education = ref([
   {
     period: "2024 - Now",
-    degree: "certificate in Software Development - Scholarship",
+    degree: "Certificate in Software Development - Scholarship",
     institution: "Power Learn project",
     description: "This course is meant to train young people from Africa, starting at a point of little experience to fairly skilled software developers ready to get into the market place and jump on the next phase of their learning at an advanced levels."
   },

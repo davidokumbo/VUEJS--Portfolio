@@ -1,26 +1,3 @@
-// import { createRouter, createWebHistory } from 'vue-router'
-// import HomeView from '../views/HomeView.vue'
-
-// const routes = [
-//   {
-//     path: '/',
-//     name: 'home',
-//     component: HomeView,
-//     meta: {
-//       description: 'Hi, Im Briva Hamisi, I am a Software Engineer, Fullstack Developer, Mobile Apps Developer, Graphic Designer, Video Editor, and Photographer. My passion lies in creating impactful digital experiences across various platforms, combining technical expertise and creativity. Whether it’s building scalable web solutions, designing intuitive mobile apps, or crafting stunning visuals, I bring a comprehensive approach to every project. Lets collaborate and bring your ideas to life!',
-//       image: '/images/Banner_Image.png'
-//     }
-//   },
-// ]
-
-// const router = createRouter({
-//   history: createWebHistory(process.env.BASE_URL),
-//   routes
-// })
-
-// export default router
-
-
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -55,6 +32,5 @@ const router = createRouter({
   routes
 })
 
-// Navigation guard remains the same as in the previous example
 
 export default router
