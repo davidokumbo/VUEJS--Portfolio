@@ -4,18 +4,18 @@
       <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
         <div class="col-span-1 lg:col-span-2">
           <img 
-            src="/images/profile.png" 
-            alt="Briva Hamisi" 
+            src="/images/David.png" 
+            alt="David Okumbo" 
             class="w-full rounded-lg shadow-lg mb-6 transition-all duration-300 ease-in-out" 
             :class="{ 'lg:h-[700px] lg:object-cover': showAllSkills }"
           />
         </div>
         <div class="col-span-1 lg:col-span-3 text-left">
-          <h1 class="text-4xl font-bold mb-4">About Briva Hamisi</h1>
-          <h2 class="text-2xl font-semibold mb-4">Software Engineer | Full Stack Developer | Creative Designer</h2>
+          <h1 class="text-4xl font-bold mb-4">About David Okumbo</h1>
+          <h2 class="text-2xl font-semibold mb-4">Software Engineer | Full Stack Developer | Web Developer</h2>
           <p class="text-sm text-gray-400 mb-4">
-            A versatile professional with 3 years of experience across IT, media, and the entertainment industry. Adept at delivering high-quality solutions in mobile app and web development, video editing, and graphic design. 
-            Proficient in a broad range of technologies and tools, including PHP, JavaScript, Java, C, Python, HTML, CSS, ngnix, Bootstrap, Laravel, kotlin, WordPress, and the Adobe Creative Suite (Photoshop, Illustrator, InDesign, Lightroom, Premiere Pro, After Effects). Experienced in production process managers like PM2.
+            A versatile professional with 3 years of experience across Software Development Indusry. Adept at delivering high-quality solutions in mobile app and web development. 
+            Proficient in a broad range of technologies and tools, including PHP, JavaScript, Java,Laravel framework, Springboot framework, HTML, CSS, ngnix, Apache Server, Docker,Tailwind and Bootstrap. Experienced in production process managers like PM2.
           </p>
           <p class="text-sm text-gray-400 mb-6">
             Demonstrates strong leadership, working with minimum supervision and excelling in communication, with a proven ability to make critical decisions and work under pressure.
@@ -53,27 +53,25 @@
 import { ref, computed } from 'vue'
 
 const skills = ref([
-  { name: 'Laravel', percentage: 70 },
-  { name: 'JavaScript', percentage: 70 },
+  { name: 'Laravel', percentage: 85 },
+  { name: 'Springboot', percentage: 75 },
   { name: 'PHP', percentage: 75 },
-  { name: 'Adobe Photoshop', percentage: 94 },
-  { name: 'Adobe Illustrator', percentage: 90 },
-  { name: 'Vue.js', percentage: 75 },
-  { name: 'React', percentage: 65 },
-  { name: 'Node.js', percentage: 80 },
-  { name: 'Python', percentage: 70 },
+  { name: 'Java', percentage: 70 },
+  { name: 'JavaScript', percentage: 60 },
+  { name: 'Vue.js', percentage: 70 },
+  { name: 'Node.js', percentage: 70 },
   { name: 'SQL', percentage: 85 },
   { name: 'Bootstrap', percentage: 80 },
   { name: 'Tailwind Css', percentage: 75 },
   { name: 'WordPress', percentage: 70 },
-  { name: 'Kotlin', percentage: 75 },
-  { name: 'Java', percentage: 65 },
+  
+  
 ])
 
 const showAllSkills = ref(false)
 
 const displayedSkills = computed(() => {
-  return showAllSkills.value ? skills.value : skills.value.slice(0, 5)
+  return showAllSkills.value ? skills.value : skills.value.slice(0, 6)
 })
 
 const toggleSkills = () => {

@@ -27,17 +27,22 @@
     {
       icon: ComputerDesktopIcon,
       title: "Graphic Design",
-      description: "I have done Graphic Design for more than 4 years, I create logos, business cards, brochures, magazines, posters, mockups, flyers, etc."
+      description: "I have done Graphic Design for more than 2 years, I create logos, business cards, posters, flyers, etc."
     },
     {
       icon: WrenchScrewdriverIcon,
-      title: "Development",
-      description: "I am a Full Stack Developer, I develop both web and mobile apps. Check the skills section to find out more on my strengths and abilities."
+      title: "Web Development",
+      description: "I am a Full Stack Developer, I develop dynamic and scalable web based applications for both personal use or commercial. Check the skills section to find out more on my strengths and abilities."
     },
     {
-      icon: CameraIcon,
-      title: "Video/Photography",
-      description: "I excel in photography, videography and video editing of any kind. Be it weddings, promos, graduations, birthdays, products, among others."
-    }
+      icon: WrenchScrewdriverIcon,
+      title: "Backend Developer",
+      description: "I excel in Backend Software Development which involves development of REST Apis, Microservices Architecture, Payment Integrations and Database Development. I am Proficient in JAVA Springboot and PHP laravel as a backend programming frameworks."
+    },
+    // {
+    //   icon: CameraIcon,
+    //   title: "Video/Photography",
+    //   description: "I excel in photography, videography and video editing of any kind. Be it weddings, promos, graduations, birthdays, products, among others."
+    // }
   ])
   </script>
